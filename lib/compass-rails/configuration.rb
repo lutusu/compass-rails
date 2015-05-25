@@ -1,15 +1,15 @@
 module CompassRails
   module Configuration
     def default_images_dir
-      File.join("app", "assets", "images")
+      File.join("vendor","assets", "images")
     end
 
     def default_fonts_dir
-      File.join("app", "assets", "fonts")
+      File.join("vender","assets", "fonts")
     end
 
     def default_javascripts_dir
-      File.join("app", "assets", "javascripts")
+      File.join("vender","assets", "javascripts")
     end
 
     def default_css_dir
@@ -49,7 +49,7 @@ module CompassRails
     end
 
     def default_sass_dir
-      File.join("app", "assets", "stylesheets")
+      File.join("vendor","assets", "stylesheets")
     end
 
     def default_http_generated_images_path
