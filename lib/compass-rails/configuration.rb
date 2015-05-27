@@ -5,11 +5,11 @@ module CompassRails
     end
 
     def default_fonts_dir
-      File.join("vender","assets", "fonts")
+      File.join("vendor","assets", "fonts")
     end
 
     def default_javascripts_dir
-      File.join("vender","assets", "javascripts")
+      File.join("vendor","assets", "javascripts")
     end
 
     def default_css_dir
